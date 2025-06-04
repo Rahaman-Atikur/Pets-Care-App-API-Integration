@@ -47,7 +47,7 @@ const displayPets = (pets) => {
     const div = document.createElement("div");
     div.classList.add("mt-5");
     div.innerHTML = `
-    <div class="card bg-base-100 w-96 shadow-sm">
+    <div class="card bg-base-100 w-96 mx-auto">
   <figure>
     <img
       src=${pet.image} />
