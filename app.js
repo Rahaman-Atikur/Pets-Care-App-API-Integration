@@ -34,7 +34,7 @@ const loadPets = async (categoryName) => {
 };
 
 const displayPets = (pets) => {
-  console.log(pets);
+  // console.log(pets);
   if (pets.length < 1) {
     document.getElementById("petsContainer").style.display = "none";
     document.getElementById("status").style.display = "block";
